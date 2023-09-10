@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SmileIdleAnimationStart: FaceAnimation {
+internal struct SmileIdleFaceAnimationStart: FaceAnimation {
     struct EyesAnimation: MoveAnimation {
         var moveToPosition: CGPoint = CGPoint(x: 0, y: 0)
     }
@@ -24,6 +24,8 @@ struct SmileIdleAnimationStart: FaceAnimation {
         var moveToPosition: CGPoint = CGPoint(x: 0, y: 0)
     }
     
+    var eyebrowsAnimation: FacialFeatureAnimation?
+    var eyebrowsPosition: EyebrowsPositions? = EyebrowsPositions.dismissed
     var eyesAnimation: FacialFeatureAnimation? = EyesAnimation()
     var noseAnimation: FacialFeatureAnimation? = NoseAnimation()
     var mouthAnimation: FacialFeatureAnimation? = MouthAnimation()

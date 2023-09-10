@@ -8,6 +8,8 @@
 import Foundation
 
 protocol FaceAnimation {
+    var eyebrowsAnimation: FacialFeatureAnimation? { get set }
+    var eyebrowsPosition: EyebrowsPositions? { get set }
     var eyesAnimation: FacialFeatureAnimation? { get set }
     var noseAnimation: FacialFeatureAnimation? { get set }
     var mouthAnimation: FacialFeatureAnimation? { get set }

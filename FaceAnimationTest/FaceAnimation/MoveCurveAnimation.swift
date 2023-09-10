@@ -7,6 +7,7 @@
 
 import Foundation
 
-protocol MoveCurveAnimation: MoveAnimation {
+protocol MoveCurveAnimation: FacialFeatureAnimation {
+    var moveToQuadCurvePoint: CGPoint { get set }
     var moveToQuadCurveControlPoint: CGPoint { get set }
 }

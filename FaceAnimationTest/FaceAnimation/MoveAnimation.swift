@@ -8,5 +8,5 @@
 import Foundation
 
 protocol MoveAnimation: FacialFeatureAnimation {
-    var moveToPosition: CGPoint { get set }
+    var moveToPosition: CGPoint { get }
 }

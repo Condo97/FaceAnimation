@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct WaitAnimation: FaceAnimation {
+struct WaitFaceAnimation: FaceAnimation {
+    var eyebrowsAnimation: FacialFeatureAnimation?
+    var eyebrowsPosition: EyebrowsPositions?
     var eyesAnimation: FacialFeatureAnimation?
     var noseAnimation: FacialFeatureAnimation?
     var mouthAnimation: FacialFeatureAnimation?
