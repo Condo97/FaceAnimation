@@ -4,7 +4,6 @@ import PackageDescription
 
 let package = Package(
     name: "FaceAnimation",
-    defaultLocalization: "en",
     platforms: [
         .iOS(.v15),
         .macOS(.v12)
@@ -12,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "FaceAnimation",
-            targets: ["FaceAnimation"]),
+            targets: ["FaceAnimation"])
     ],
     dependencies: [
         // Add your package dependencies here, if any.
@@ -20,10 +19,9 @@ let package = Package(
     targets: [
         .target(
             name: "FaceAnimation",
-            dependencies: [],
-	    exclude: "Example"),
+            dependencies: []),
         .testTarget(
             name: "FaceAnimationTests",
-            dependencies: ["FaceAnimation"]),
+            dependencies: ["FaceAnimation"])
     ]
 )
