@@ -126,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				BB12F45C2AAD53C200B2A0DD /* Sources */,
-				BB2C4EDC2AAD45CF00E9EE5A /* Example */,
 				BB12F45D2AAD53DA00B2A0DD /* Tests */,
 				BB05E6D62AAC069E0042A451 /* Products */,
 			);
@@ -232,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				BB05E6D72AAC069E0042A451 /* FaceAnimation */,
+				BB2C4EDC2AAD45CF00E9EE5A /* Example */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
