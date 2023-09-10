@@ -39,6 +39,12 @@
 		BB1403772AACCF6900B28E90 /* EyebrowsPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1403762AACCF6900B28E90 /* EyebrowsPositions.swift */; };
 		BB1403792AACD05A00B28E90 /* OpacityAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1403782AACD05A00B28E90 /* OpacityAnimation.swift */; };
 		BB62D32C2AAD74BB001F9ED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB62D32B2AAD74BB001F9ED4 /* Main.storyboard */; };
+		BB62D35D2AAD7834001F9ED4 /* FaceAnimationFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = BB62D35C2AAD7834001F9ED4 /* FaceAnimationFramework.docc */; };
+		BB62D3632AAD7834001F9ED4 /* FaceAnimationFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62D3592AAD7834001F9ED4 /* FaceAnimationFramework.framework */; };
+		BB62D36A2AAD7834001F9ED4 /* FaceAnimationFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB62D3692AAD7834001F9ED4 /* FaceAnimationFrameworkTests.swift */; };
+		BB62D36B2AAD7834001F9ED4 /* FaceAnimationFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = BB62D35B2AAD7834001F9ED4 /* FaceAnimationFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB62D36E2AAD7834001F9ED4 /* FaceAnimationFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB62D3592AAD7834001F9ED4 /* FaceAnimationFramework.framework */; };
+		BB62D36F2AAD7834001F9ED4 /* FaceAnimationFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB62D3592AAD7834001F9ED4 /* FaceAnimationFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +62,42 @@
 			remoteGlobalIDString = BB05E6D42AAC069E0042A451;
 			remoteInfo = FaceAnimationTest;
 		};
+		BB62D3642AAD7834001F9ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB05E6CD2AAC069E0042A451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB62D3582AAD7834001F9ED4;
+			remoteInfo = FaceAnimationFramework;
+		};
+		BB62D3662AAD7834001F9ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB05E6CD2AAC069E0042A451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB05E6D42AAC069E0042A451;
+			remoteInfo = FaceAnimation;
+		};
+		BB62D36C2AAD7834001F9ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB05E6CD2AAC069E0042A451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB62D3582AAD7834001F9ED4;
+			remoteInfo = FaceAnimationFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB62D3702AAD7834001F9ED4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BB62D36F2AAD7834001F9ED4 /* FaceAnimationFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BB05E6D52AAC069E0042A451 /* FaceAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +136,11 @@
 		BB1403762AACCF6900B28E90 /* EyebrowsPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyebrowsPositions.swift; sourceTree = "<group>"; };
 		BB1403782AACD05A00B28E90 /* OpacityAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityAnimation.swift; sourceTree = "<group>"; };
 		BB62D32B2AAD74BB001F9ED4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BB62D3592AAD7834001F9ED4 /* FaceAnimationFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FaceAnimationFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB62D35B2AAD7834001F9ED4 /* FaceAnimationFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceAnimationFramework.h; sourceTree = "<group>"; };
+		BB62D35C2AAD7834001F9ED4 /* FaceAnimationFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FaceAnimationFramework.docc; sourceTree = "<group>"; };
+		BB62D3622AAD7834001F9ED4 /* FaceAnimationFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceAnimationFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB62D3692AAD7834001F9ED4 /* FaceAnimationFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAnimationFrameworkTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB62D36E2AAD7834001F9ED4 /* FaceAnimationFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +166,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB62D3562AAD7834001F9ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB62D35F2AAD7834001F9ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB62D3632AAD7834001F9ED4 /* FaceAnimationFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -127,6 +189,8 @@
 			children = (
 				BB12F45C2AAD53C200B2A0DD /* Sources */,
 				BB12F45D2AAD53DA00B2A0DD /* Tests */,
+				BB62D35A2AAD7834001F9ED4 /* FaceAnimationFramework */,
+				BB62D3682AAD7834001F9ED4 /* FaceAnimationFrameworkTests */,
 				BB05E6D62AAC069E0042A451 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,6 +201,8 @@
 				BB05E6D52AAC069E0042A451 /* FaceAnimation.app */,
 				BB05E6EE2AAC069F0042A451 /* FaceAnimationTests.xctest */,
 				BB05E6F82AAC069F0042A451 /* FaceAnimationUITests.xctest */,
+				BB62D3592AAD7834001F9ED4 /* FaceAnimationFramework.framework */,
+				BB62D3622AAD7834001F9ED4 /* FaceAnimationFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -260,7 +326,35 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		BB62D35A2AAD7834001F9ED4 /* FaceAnimationFramework */ = {
+			isa = PBXGroup;
+			children = (
+				BB62D35B2AAD7834001F9ED4 /* FaceAnimationFramework.h */,
+				BB62D35C2AAD7834001F9ED4 /* FaceAnimationFramework.docc */,
+			);
+			path = FaceAnimationFramework;
+			sourceTree = "<group>";
+		};
+		BB62D3682AAD7834001F9ED4 /* FaceAnimationFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB62D3692AAD7834001F9ED4 /* FaceAnimationFrameworkTests.swift */,
+			);
+			path = FaceAnimationFrameworkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB62D3542AAD7834001F9ED4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB62D36B2AAD7834001F9ED4 /* FaceAnimationFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		BB05E6D42AAC069E0042A451 /* FaceAnimation */ = {
@@ -270,10 +364,12 @@
 				BB05E6D12AAC069E0042A451 /* Sources */,
 				BB05E6D22AAC069E0042A451 /* Frameworks */,
 				BB05E6D32AAC069E0042A451 /* Resources */,
+				BB62D3702AAD7834001F9ED4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BB62D36D2AAD7834001F9ED4 /* PBXTargetDependency */,
 			);
 			name = FaceAnimation;
 			productName = FaceAnimationTest;
@@ -316,6 +412,43 @@
 			productReference = BB05E6F82AAC069F0042A451 /* FaceAnimationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BB62D3582AAD7834001F9ED4 /* FaceAnimationFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB62D3752AAD7834001F9ED4 /* Build configuration list for PBXNativeTarget "FaceAnimationFramework" */;
+			buildPhases = (
+				BB62D3542AAD7834001F9ED4 /* Headers */,
+				BB62D3552AAD7834001F9ED4 /* Sources */,
+				BB62D3562AAD7834001F9ED4 /* Frameworks */,
+				BB62D3572AAD7834001F9ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceAnimationFramework;
+			productName = FaceAnimationFramework;
+			productReference = BB62D3592AAD7834001F9ED4 /* FaceAnimationFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB62D3612AAD7834001F9ED4 /* FaceAnimationFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB62D3762AAD7834001F9ED4 /* Build configuration list for PBXNativeTarget "FaceAnimationFrameworkTests" */;
+			buildPhases = (
+				BB62D35E2AAD7834001F9ED4 /* Sources */,
+				BB62D35F2AAD7834001F9ED4 /* Frameworks */,
+				BB62D3602AAD7834001F9ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB62D3652AAD7834001F9ED4 /* PBXTargetDependency */,
+				BB62D3672AAD7834001F9ED4 /* PBXTargetDependency */,
+			);
+			name = FaceAnimationFrameworkTests;
+			productName = FaceAnimationFrameworkTests;
+			productReference = BB62D3622AAD7834001F9ED4 /* FaceAnimationFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -337,6 +470,13 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = BB05E6D42AAC069E0042A451;
 					};
+					BB62D3582AAD7834001F9ED4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BB62D3612AAD7834001F9ED4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BB05E6D42AAC069E0042A451;
+					};
 				};
 			};
 			buildConfigurationList = BB05E6D02AAC069E0042A451 /* Build configuration list for PBXProject "FaceAnimation" */;
@@ -355,6 +495,8 @@
 				BB05E6D42AAC069E0042A451 /* FaceAnimation */,
 				BB05E6ED2AAC069F0042A451 /* FaceAnimationTests */,
 				BB05E6F72AAC069F0042A451 /* FaceAnimationUITests */,
+				BB62D3582AAD7834001F9ED4 /* FaceAnimationFramework */,
+				BB62D3612AAD7834001F9ED4 /* FaceAnimationFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -380,6 +522,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BB05E6F62AAC069F0042A451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB62D3572AAD7834001F9ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB62D3602AAD7834001F9ED4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -437,6 +593,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB62D3552AAD7834001F9ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB62D35D2AAD7834001F9ED4 /* FaceAnimationFramework.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB62D35E2AAD7834001F9ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB62D36A2AAD7834001F9ED4 /* FaceAnimationFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -449,6 +621,21 @@
 			isa = PBXTargetDependency;
 			target = BB05E6D42AAC069E0042A451 /* FaceAnimation */;
 			targetProxy = BB05E6F92AAC069F0042A451 /* PBXContainerItemProxy */;
+		};
+		BB62D3652AAD7834001F9ED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB62D3582AAD7834001F9ED4 /* FaceAnimationFramework */;
+			targetProxy = BB62D3642AAD7834001F9ED4 /* PBXContainerItemProxy */;
+		};
+		BB62D3672AAD7834001F9ED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB05E6D42AAC069E0042A451 /* FaceAnimation */;
+			targetProxy = BB62D3662AAD7834001F9ED4 /* PBXContainerItemProxy */;
+		};
+		BB62D36D2AAD7834001F9ED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB62D3582AAD7834001F9ED4 /* FaceAnimationFramework */;
+			targetProxy = BB62D36C2AAD7834001F9ED4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -712,6 +899,112 @@
 			};
 			name = Release;
 		};
+		BB62D3712AAD7834001F9ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WNCN9TJFT3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB62D3722AAD7834001F9ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WNCN9TJFT3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB62D3732AAD7834001F9ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WNCN9TJFT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaceAnimation";
+			};
+			name = Debug;
+		};
+		BB62D3742AAD7834001F9ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WNCN9TJFT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaceAnimation";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -747,6 +1040,24 @@
 			buildConfigurations = (
 				BB05E7092AAC069F0042A451 /* Debug */,
 				BB05E70A2AAC069F0042A451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB62D3752AAD7834001F9ED4 /* Build configuration list for PBXNativeTarget "FaceAnimationFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB62D3712AAD7834001F9ED4 /* Debug */,
+				BB62D3722AAD7834001F9ED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB62D3762AAD7834001F9ED4 /* Build configuration list for PBXNativeTarget "FaceAnimationFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB62D3732AAD7834001F9ED4 /* Debug */,
+				BB62D3742AAD7834001F9ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
