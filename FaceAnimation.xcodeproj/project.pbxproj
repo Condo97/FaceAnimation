@@ -126,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				BB12F45C2AAD53C200B2A0DD /* Sources */,
+				BB2C4EDC2AAD45CF00E9EE5A /* Example */,
 				BB12F45D2AAD53DA00B2A0DD /* Tests */,
 				BB05E6D62AAC069E0042A451 /* Products */,
 			);
@@ -147,7 +148,6 @@
 				BB05E7322AACB86C0042A451 /* Images */,
 				BB05E7202AAC07C60042A451 /* Animations */,
 				BB05E70B2AAC06BC0042A451 /* FaceAnimation */,
-				BB2C4EDC2AAD45CF00E9EE5A /* Example */,
 				BB05E6E92AAC069F0042A451 /* Info.plist */,
 				BB05E6E12AAC069E0042A451 /* FaceAnimation.xcdatamodeld */,
 			);
