@@ -20,7 +20,8 @@ let package = Package(
     targets: [
         .target(
             name: "FaceAnimation",
-            dependencies: []),
+            dependencies: [],
+	    exclude: "Example"),
         .testTarget(
             name: "FaceAnimationTests",
             dependencies: ["FaceAnimation"]),
