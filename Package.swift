@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "FaceAnimation",
+    defaultLocalization: "en",
     platforms: [
         .iOS(.v15),
         .macOS(.v12)
