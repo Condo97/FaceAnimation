@@ -125,9 +125,8 @@
 		BB05E6CC2AAC069E0042A451 = {
 			isa = PBXGroup;
 			children = (
-				BB05E6D72AAC069E0042A451 /* FaceAnimation */,
-				BB05E6F12AAC069F0042A451 /* FaceAnimationTests */,
-				BB05E6FB2AAC069F0042A451 /* FaceAnimationUITests */,
+				BB12F45C2AAD53C200B2A0DD /* Sources */,
+				BB12F45D2AAD53DA00B2A0DD /* Tests */,
 				BB05E6D62AAC069E0042A451 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -227,6 +226,23 @@
 				BB05E7342AACB87A0042A451 /* face.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		BB12F45C2AAD53C200B2A0DD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BB05E6D72AAC069E0042A451 /* FaceAnimation */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BB12F45D2AAD53DA00B2A0DD /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BB05E6F12AAC069F0042A451 /* FaceAnimationTests */,
+				BB05E6FB2AAC069F0042A451 /* FaceAnimationUITests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		BB2C4EDC2AAD45CF00E9EE5A /* Example */ = {
@@ -579,7 +595,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WNCN9TJFT3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FaceAnimation/Info.plist;
+				INFOPLIST_FILE = Sources/FaceAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -607,7 +623,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WNCN9TJFT3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FaceAnimation/Info.plist;
+				INFOPLIST_FILE = Sources/FaceAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
