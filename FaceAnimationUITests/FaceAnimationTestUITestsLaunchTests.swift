@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class FaceAnimationTestUITestsLaunchTests: XCTestCase {
+final class FaceAnimationUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

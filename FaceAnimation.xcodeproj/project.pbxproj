@@ -11,10 +11,10 @@
 		BB05E6DB2AAC069E0042A451 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05E6DA2AAC069E0042A451 /* SceneDelegate.swift */; };
 		BB05E6DD2AAC069E0042A451 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05E6DC2AAC069E0042A451 /* ViewController.swift */; };
 		BB05E6E02AAC069E0042A451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB05E6DE2AAC069E0042A451 /* Main.storyboard */; };
-		BB05E6E32AAC069E0042A451 /* FaceAnimationTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB05E6E12AAC069E0042A451 /* FaceAnimationTest.xcdatamodeld */; };
+		BB05E6E32AAC069E0042A451 /* FaceAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB05E6E12AAC069E0042A451 /* FaceAnimation.xcdatamodeld */; };
 		BB05E6E52AAC069F0042A451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB05E6E42AAC069F0042A451 /* Assets.xcassets */; };
 		BB05E6E82AAC069F0042A451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB05E6E62AAC069F0042A451 /* LaunchScreen.storyboard */; };
-		BB05E6F32AAC069F0042A451 /* FaceAnimationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05E6F22AAC069F0042A451 /* FaceAnimationTestTests.swift */; };
+		BB05E6F32AAC069F0042A451 /* FaceAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05E6F22AAC069F0042A451 /* FaceAnimationTests.swift */; };
 		BB05E6FD2AAC069F0042A451 /* FaceAnimationTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05E6FC2AAC069F0042A451 /* FaceAnimationTestUITests.swift */; };
 		BB05E6FF2AAC069F0042A451 /* FaceAnimationTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05E6FE2AAC069F0042A451 /* FaceAnimationTestUITestsLaunchTests.swift */; };
 		BB05E70D2AAC06C70042A451 /* FaceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05E70C2AAC06C70042A451 /* FaceAnimation.swift */; };
@@ -59,7 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BB05E6D52AAC069E0042A451 /* FaceAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB05E6D52AAC069E0042A451 /* FaceAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB05E6D82AAC069E0042A451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB05E6DA2AAC069E0042A451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BB05E6DC2AAC069E0042A451 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,9 +68,9 @@
 		BB05E6E42AAC069F0042A451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB05E6E72AAC069F0042A451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB05E6E92AAC069F0042A451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB05E6EE2AAC069F0042A451 /* FaceAnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceAnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB05E6F22AAC069F0042A451 /* FaceAnimationTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAnimationTestTests.swift; sourceTree = "<group>"; };
-		BB05E6F82AAC069F0042A451 /* FaceAnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceAnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB05E6EE2AAC069F0042A451 /* FaceAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB05E6F22AAC069F0042A451 /* FaceAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAnimationTests.swift; sourceTree = "<group>"; };
+		BB05E6F82AAC069F0042A451 /* FaceAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB05E6FC2AAC069F0042A451 /* FaceAnimationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAnimationTestUITests.swift; sourceTree = "<group>"; };
 		BB05E6FE2AAC069F0042A451 /* FaceAnimationTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAnimationTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BB05E70C2AAC06C70042A451 /* FaceAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAnimation.swift; sourceTree = "<group>"; };
@@ -125,9 +125,9 @@
 		BB05E6CC2AAC069E0042A451 = {
 			isa = PBXGroup;
 			children = (
-				BB05E6D72AAC069E0042A451 /* FaceAnimationTest */,
-				BB05E6F12AAC069F0042A451 /* FaceAnimationTestTests */,
-				BB05E6FB2AAC069F0042A451 /* FaceAnimationTestUITests */,
+				BB05E6D72AAC069E0042A451 /* FaceAnimation */,
+				BB05E6F12AAC069F0042A451 /* FaceAnimationTests */,
+				BB05E6FB2AAC069F0042A451 /* FaceAnimationUITests */,
 				BB05E6D62AAC069E0042A451 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,40 +135,41 @@
 		BB05E6D62AAC069E0042A451 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB05E6D52AAC069E0042A451 /* FaceAnimationTest.app */,
-				BB05E6EE2AAC069F0042A451 /* FaceAnimationTestTests.xctest */,
-				BB05E6F82AAC069F0042A451 /* FaceAnimationTestUITests.xctest */,
+				BB05E6D52AAC069E0042A451 /* FaceAnimation.app */,
+				BB05E6EE2AAC069F0042A451 /* FaceAnimationTests.xctest */,
+				BB05E6F82AAC069F0042A451 /* FaceAnimationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB05E6D72AAC069E0042A451 /* FaceAnimationTest */ = {
+		BB05E6D72AAC069E0042A451 /* FaceAnimation */ = {
 			isa = PBXGroup;
 			children = (
 				BB05E7322AACB86C0042A451 /* Images */,
 				BB05E7202AAC07C60042A451 /* Animations */,
 				BB05E70B2AAC06BC0042A451 /* FaceAnimation */,
 				BB2C4EDC2AAD45CF00E9EE5A /* Example */,
-				BB05E6E12AAC069E0042A451 /* FaceAnimationTest.xcdatamodeld */,
+				BB05E6E92AAC069F0042A451 /* Info.plist */,
+				BB05E6E12AAC069E0042A451 /* FaceAnimation.xcdatamodeld */,
 			);
-			path = FaceAnimationTest;
+			path = FaceAnimation;
 			sourceTree = "<group>";
 		};
-		BB05E6F12AAC069F0042A451 /* FaceAnimationTestTests */ = {
+		BB05E6F12AAC069F0042A451 /* FaceAnimationTests */ = {
 			isa = PBXGroup;
 			children = (
-				BB05E6F22AAC069F0042A451 /* FaceAnimationTestTests.swift */,
+				BB05E6F22AAC069F0042A451 /* FaceAnimationTests.swift */,
 			);
-			path = FaceAnimationTestTests;
+			path = FaceAnimationTests;
 			sourceTree = "<group>";
 		};
-		BB05E6FB2AAC069F0042A451 /* FaceAnimationTestUITests */ = {
+		BB05E6FB2AAC069F0042A451 /* FaceAnimationUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BB05E6FC2AAC069F0042A451 /* FaceAnimationTestUITests.swift */,
 				BB05E6FE2AAC069F0042A451 /* FaceAnimationTestUITestsLaunchTests.swift */,
 			);
-			path = FaceAnimationTestUITests;
+			path = FaceAnimationUITests;
 			sourceTree = "<group>";
 		};
 		BB05E70B2AAC06BC0042A451 /* FaceAnimation */ = {
@@ -239,7 +240,6 @@
 				BB05E6DE2AAC069E0042A451 /* Main.storyboard */,
 				BB05E6E42AAC069F0042A451 /* Assets.xcassets */,
 				BB05E6E62AAC069F0042A451 /* LaunchScreen.storyboard */,
-				BB05E6E92AAC069F0042A451 /* Info.plist */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -247,9 +247,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB05E6D42AAC069E0042A451 /* FaceAnimationTest */ = {
+		BB05E6D42AAC069E0042A451 /* FaceAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB05E7022AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimationTest" */;
+			buildConfigurationList = BB05E7022AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimation" */;
 			buildPhases = (
 				BB05E6D12AAC069E0042A451 /* Sources */,
 				BB05E6D22AAC069E0042A451 /* Frameworks */,
@@ -259,14 +259,14 @@
 			);
 			dependencies = (
 			);
-			name = FaceAnimationTest;
+			name = FaceAnimation;
 			productName = FaceAnimationTest;
-			productReference = BB05E6D52AAC069E0042A451 /* FaceAnimationTest.app */;
+			productReference = BB05E6D52AAC069E0042A451 /* FaceAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BB05E6ED2AAC069F0042A451 /* FaceAnimationTestTests */ = {
+		BB05E6ED2AAC069F0042A451 /* FaceAnimationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB05E7052AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimationTestTests" */;
+			buildConfigurationList = BB05E7052AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimationTests" */;
 			buildPhases = (
 				BB05E6EA2AAC069F0042A451 /* Sources */,
 				BB05E6EB2AAC069F0042A451 /* Frameworks */,
@@ -277,14 +277,14 @@
 			dependencies = (
 				BB05E6F02AAC069F0042A451 /* PBXTargetDependency */,
 			);
-			name = FaceAnimationTestTests;
+			name = FaceAnimationTests;
 			productName = FaceAnimationTestTests;
-			productReference = BB05E6EE2AAC069F0042A451 /* FaceAnimationTestTests.xctest */;
+			productReference = BB05E6EE2AAC069F0042A451 /* FaceAnimationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BB05E6F72AAC069F0042A451 /* FaceAnimationTestUITests */ = {
+		BB05E6F72AAC069F0042A451 /* FaceAnimationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB05E7082AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimationTestUITests" */;
+			buildConfigurationList = BB05E7082AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimationUITests" */;
 			buildPhases = (
 				BB05E6F42AAC069F0042A451 /* Sources */,
 				BB05E6F52AAC069F0042A451 /* Frameworks */,
@@ -295,9 +295,9 @@
 			dependencies = (
 				BB05E6FA2AAC069F0042A451 /* PBXTargetDependency */,
 			);
-			name = FaceAnimationTestUITests;
+			name = FaceAnimationUITests;
 			productName = FaceAnimationTestUITests;
-			productReference = BB05E6F82AAC069F0042A451 /* FaceAnimationTestUITests.xctest */;
+			productReference = BB05E6F82AAC069F0042A451 /* FaceAnimationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -323,7 +323,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB05E6D02AAC069E0042A451 /* Build configuration list for PBXProject "FaceAnimationTest" */;
+			buildConfigurationList = BB05E6D02AAC069E0042A451 /* Build configuration list for PBXProject "FaceAnimation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -336,9 +336,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB05E6D42AAC069E0042A451 /* FaceAnimationTest */,
-				BB05E6ED2AAC069F0042A451 /* FaceAnimationTestTests */,
-				BB05E6F72AAC069F0042A451 /* FaceAnimationTestUITests */,
+				BB05E6D42AAC069E0042A451 /* FaceAnimation */,
+				BB05E6ED2AAC069F0042A451 /* FaceAnimationTests */,
+				BB05E6F72AAC069F0042A451 /* FaceAnimationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +383,7 @@
 				BB05E72E2AACB7680042A451 /* WaitFaceAnimation.swift in Sources */,
 				BB05E73A2AACBF150042A451 /* BlinkFaceAnimation.swift in Sources */,
 				BB05E6DD2AAC069E0042A451 /* ViewController.swift in Sources */,
-				BB05E6E32AAC069E0042A451 /* FaceAnimationTest.xcdatamodeld in Sources */,
+				BB05E6E32AAC069E0042A451 /* FaceAnimation.xcdatamodeld in Sources */,
 				BB05E72C2AACB75A0042A451 /* SmileIdleFaceAnimation3.swift in Sources */,
 				BB1403772AACCF6900B28E90 /* EyebrowsPositions.swift in Sources */,
 				BB05E7222AAC07D30042A451 /* MouthPositions.swift in Sources */,
@@ -408,7 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB05E6F32AAC069F0042A451 /* FaceAnimationTestTests.swift in Sources */,
+				BB05E6F32AAC069F0042A451 /* FaceAnimationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,12 +426,12 @@
 /* Begin PBXTargetDependency section */
 		BB05E6F02AAC069F0042A451 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB05E6D42AAC069E0042A451 /* FaceAnimationTest */;
+			target = BB05E6D42AAC069E0042A451 /* FaceAnimation */;
 			targetProxy = BB05E6EF2AAC069F0042A451 /* PBXContainerItemProxy */;
 		};
 		BB05E6FA2AAC069F0042A451 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB05E6D42AAC069E0042A451 /* FaceAnimationTest */;
+			target = BB05E6D42AAC069E0042A451 /* FaceAnimation */;
 			targetProxy = BB05E6F92AAC069F0042A451 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -579,7 +579,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WNCN9TJFT3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FaceAnimationTest/Info.plist;
+				INFOPLIST_FILE = FaceAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -590,7 +590,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -607,7 +607,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WNCN9TJFT3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FaceAnimationTest/Info.plist;
+				INFOPLIST_FILE = FaceAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -618,7 +618,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -637,12 +637,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceAnimationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaceAnimationTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceAnimationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaceAnimation";
 			};
 			name = Debug;
 		};
@@ -657,12 +657,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceAnimationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaceAnimationTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceAnimationTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FaceAnimation";
 			};
 			name = Release;
 		};
@@ -675,12 +675,12 @@
 				DEVELOPMENT_TEAM = WNCN9TJFT3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FaceAnimationTest;
+				TEST_TARGET_NAME = FaceAnimation;
 			};
 			name = Debug;
 		};
@@ -693,19 +693,19 @@
 				DEVELOPMENT_TEAM = WNCN9TJFT3;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acapplications.FaceAnimationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FaceAnimationTest;
+				TEST_TARGET_NAME = FaceAnimation;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB05E6D02AAC069E0042A451 /* Build configuration list for PBXProject "FaceAnimationTest" */ = {
+		BB05E6D02AAC069E0042A451 /* Build configuration list for PBXProject "FaceAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB05E7002AAC069F0042A451 /* Debug */,
@@ -714,7 +714,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB05E7022AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimationTest" */ = {
+		BB05E7022AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB05E7032AAC069F0042A451 /* Debug */,
@@ -723,7 +723,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB05E7052AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimationTestTests" */ = {
+		BB05E7052AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB05E7062AAC069F0042A451 /* Debug */,
@@ -732,7 +732,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB05E7082AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimationTestUITests" */ = {
+		BB05E7082AAC069F0042A451 /* Build configuration list for PBXNativeTarget "FaceAnimationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB05E7092AAC069F0042A451 /* Debug */,
@@ -744,13 +744,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BB05E6E12AAC069E0042A451 /* FaceAnimationTest.xcdatamodeld */ = {
+		BB05E6E12AAC069E0042A451 /* FaceAnimation.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				BB05E6E22AAC069E0042A451 /* FaceAnimationTest.xcdatamodel */,
 			);
 			currentVersion = BB05E6E22AAC069E0042A451 /* FaceAnimationTest.xcdatamodel */;
-			path = FaceAnimationTest.xcdatamodeld;
+			path = FaceAnimation.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

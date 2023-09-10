@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ReadingRighinternal tFaceAnimation: FaceAnimation {
+struct ReadingRightFaceAnimation: FaceAnimation {
     struct EyebrowsAnimation: MoveCurveAnimation {
         var moveToQuadCurvePoint: CGPoint = CGPoint(x: 4, y: 0)
         var moveToQuadCurveControlPoint: CGPoint = CGPoint(x: 4, y: 2)
